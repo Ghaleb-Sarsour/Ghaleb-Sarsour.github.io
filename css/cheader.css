@@ -11,6 +11,7 @@ header a {
 
 header{
     font-family: 'Roboto', sans-serif;
+    z-index: 99999;
     font-size: 22px;
     padding: 0 20px;
     background-color: #181A1B;

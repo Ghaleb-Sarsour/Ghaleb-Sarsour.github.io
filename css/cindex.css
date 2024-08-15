@@ -72,3 +72,24 @@ body {
 #llogo{
     border-radius: 10px;
 }
+
+@media only screen and (hover: none){
+    .ghl{
+        margin-left: 0px;
+        display: block;
+    }
+    
+    .lkd{
+        display: block;
+    }
+
+    .ctia{
+        display: block;
+    }
+    
+    .gml{
+        display: block;
+    }
+
+
+}
