@@ -106,7 +106,7 @@ ul li:hover{
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1000px){
     header nav {
         display: none;
     }
