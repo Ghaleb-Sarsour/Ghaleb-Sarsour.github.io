@@ -113,6 +113,8 @@ ul li:hover{
 
     #hamburger-menu{
         display: block;
+        font-size: 100%;
+
     }
     header{
         font-size: 100px;
