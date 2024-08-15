@@ -1,3 +1,8 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 #title{
     color: white;
     text-align: center;
@@ -7,7 +12,7 @@
 }
 
 body {
-    background-color: #282828;
+    background-color: #1E2122;
 }
 
 #info {
@@ -21,8 +26,49 @@ body {
     width: 960px;
 }
 
-.badge{
-    background-color: white;
+.snippits{
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
     text-align: center;
+    width: 960px;
+    
 }
 
+.ghl{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 550px;
+}
+
+#glogo{
+    border-radius: 10px;
+}
+
+.lkd{
+    text-align: center;
+    display: inline-block;
+}
+
+.ctia{
+    text-align: center;
+    display: inline-block;
+}
+
+.gml{
+    text-align: center;
+    display: inline-block;
+}
+
+#clogo{
+    border-radius: 10px;
+    filter: grayscale(50%) invert(100%) brightness(95%) hue-rotate(180deg);
+}
+
+#llogo{
+    border-radius: 10px;
+}
