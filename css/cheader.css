@@ -113,8 +113,7 @@ ul li:hover{
 
     #hamburger-menu{
         display: block;
-        width: 75%;
-        height: 75%;
+        width: 100%;
 
 
     }
