@@ -26,43 +26,26 @@ body {
     width: 960px;
 }
 
-.snippits{
-    justify-content: space-between;
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    width: 960px;
-    
-}
 
 .ghl{
     color: white;
-    position: relative;
     text-align: center;
-    margin-top: 100px;
-    display: inline-block;
-    justify-content: space-between;
-    margin-left: 550px;
+    margin: auto;
+    width: 600px;
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+}
+
+#b1{
+   display: block;
+   margin: 75px 0;
 }
 
 #glogo{
     border-radius: 10px;
 }
 
-.lkd{
-    text-align: center;
-    display: inline-block;
-}
-
-.ctia{
-    text-align: center;
-    display: inline-block;
-}
-
-.gml{
-    text-align: center;
-    display: inline-block;
-}
 
 #clogo{
     border-radius: 10px;
@@ -73,23 +56,3 @@ body {
     border-radius: 10px;
 }
 
-@media only screen and (hover: none){
-    .ghl{
-        margin-left: 0px;
-        display: block;
-    }
-    
-    .lkd{
-        display: block;
-    }
-
-    .ctia{
-        display: block;
-    }
-    
-    .gml{
-        display: block;
-    }
-
-
-}
