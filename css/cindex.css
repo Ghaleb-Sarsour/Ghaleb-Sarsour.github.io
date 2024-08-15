@@ -1,0 +1,19 @@
+#title{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: roboto;
+    padding-top: 50px;
+}
+
+body {
+    background-color: #282828;
+}
+
+#info {
+    color: white;
+    font-size: 20px;
+    font-family: roboto;
+    padding: 20px;
+    text-align: center;
+}
