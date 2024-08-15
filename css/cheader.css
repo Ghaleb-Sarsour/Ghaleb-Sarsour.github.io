@@ -122,6 +122,10 @@ ul li:hover{
         height: 200px; 
     }
     
+    #hamburger-menu div{
+        width: 75%
+    }
+
     #logo{
         font-size: 75%;
     }
