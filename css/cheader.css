@@ -58,6 +58,7 @@ ul li:hover{
 }
 
 #hamburger-menu{
+    z-index: 99999;
     margin: auto 0;
     display: none;
     cursor: pointer;
