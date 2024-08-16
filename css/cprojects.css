@@ -9,20 +9,20 @@ body{
 
 
 .P1-Website{
-	display: flex; 
     align-items: center;
+    margin: auto;
+    width: 950px;
 }
 
 
 .P1-Website p{
-    width: 750px;
+    width: 950px;
     font-size: 20px;
     margin-left: 1%;
+    text-align: center;
 }
 
 #p1img{
-    margin-left: 20%;
-    margin-right: 2%;
     border-radius: 10px;
 }
 
