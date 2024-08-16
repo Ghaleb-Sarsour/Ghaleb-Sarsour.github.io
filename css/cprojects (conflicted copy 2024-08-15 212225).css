@@ -1,0 +1,21 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #1E2122;
+}
+
+
+.P1-Website{
+    display: inline-block;
+}
+
+
+.P1-Website p{
+    text-align: left;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 25px;
+}

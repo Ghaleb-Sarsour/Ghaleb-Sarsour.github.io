@@ -1,0 +1,44 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #1E2122;
+}
+
+
+.P1-Website{
+	display: flex; 
+    align-items: center;
+}
+
+
+.P1-Website p{
+    width: 750px;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+#p1img{
+    margin-left: 30%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.P2-Server{
+    width:950px;
+    font-size: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.P2-Server p{
+    text-align: center;
+}

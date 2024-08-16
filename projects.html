@@ -5,8 +5,8 @@
     <head>
         <title>GS Home</title>
         <link rel="stylesheet" type="text/css" href="css/cheader.css">
-        <link rel="stylesheet" type="text/css" href="css/cindex.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel= "stylesheet" type="text/css" href="css/cprojects.css">
         <script src="js/jheader.js"></script>
     </head>
 
@@ -21,6 +21,7 @@
                     <li><a href="r_a.html">Resume</a></li>
                 </ul>
             </nav>
+
             <div id="hamburger-menu" onclick="toggleMobileMenu(this)"> 
                 <div class="bar1"></div>
                 <div class="bar2"></div>
@@ -32,6 +33,36 @@
                 </ul>
             </div>
         </header>
+ 
+        <!--Main Content-->
+        <h2>Portfolio Website: </h2>
+        <br> 
+        <div class="P1-Website">
+            <p>This project is the website you are currently visiting. Instead of using a website maker online such as Weebly and Google Sites, I wanted to make my own website
+            using HTML, CSS, and a little bit of JavaScript. This is the first websites that I have built that will be a full website and not for learning. Due to this and only having
+            four days to complete this project, the source code is not very organized and well documented, which is what I am planning to fix in the future. (source code can be found in my GitHub)</p>
+            <img id="p1img" src="images/website_build.png" alt="coding website" height="50%" width="50%">
+        </div>
+        
+        <br width="5%">
+        <hr>
+        <br width="5%"> 
+            
+        <div class="P2-Server">
+            <h2>Home Server: </h2>
+            <p>In order to get more hands-on experience with networking and servers, I decided to host my own home server. I used an old 2017 MacBook Air and two 4TB external drives
+            running Ubuntu Server (Debian had issues with MacBook Drivers). Currently, my server is running: </p>
+            <ul class="server">
+                <li><a href="https://wiki.ubuntu.com/UncomplicatedFirewall" target="_blank" rel="noopener noreferrer">UFW</a></li>
+                <li><a href="https://openvpn.net/" target="_blank" rel="noopener noreferrer">OpenVPN, Port-Forwarded</a></li>
+                <li><a href="https://docs.docker.com/compose/" target="_blank" rel="noopener noreferrer">Docker Compose</a></li>
+                <li><a href="https://nextcloud.com/" target="_blank" rel="noopener noreferrer">Nextcloud</a></li>
+                <li><a href="https://hub.docker.com/r/itzg/minecraft-server" target="_blank" rel="noopener noreferrer">Minecraft Server Hosting</a></li>
+                <li><a href="https://jellyfin.org/" target="_blank" rel="noopener noreferrer">Jellyfin</a></li>
+            </ul>
+            <img src="images/website_build.png" height="auto" width="950px" alt="server neofetch">
+        </div>
+
 
 
     </body>
