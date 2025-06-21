@@ -7,6 +7,13 @@ body{
     background-color: #1E2122;
 }
 
+#title{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: roboto, sans-serif;
+    padding-top: 50px;
+}
 
 .P1-Website{
     align-items: center;
@@ -41,3 +48,24 @@ h2{
 .P2-Server p{
     text-align: center;
 }
+
+.grid {
+    display: grid;
+    /* gid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    /* font-size: 50px; */
+}
+
+.grid > div {
+    border: 0.5px solid black;
+    border-width: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+.img:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
