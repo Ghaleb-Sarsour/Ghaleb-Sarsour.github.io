@@ -51,8 +51,8 @@ h2{
 
 .grid {
     display: grid;
-    /* gid-template-columns: auto auto auto; */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(530px, 1fr));
     padding: 10px;
     /* font-size: 50px; */
 }
